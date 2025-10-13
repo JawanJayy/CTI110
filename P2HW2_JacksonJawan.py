@@ -1,5 +1,5 @@
-# Your Name
-# Date
+# Jawan Jackson
+# 10/12/2025
 # P2HW2 – Grades List
 # This program takes grades from 6 modules, stores them in a list, and calculates:
 # the lowest grade, highest grade, total, and average. All results are formatted clearly.
@@ -37,3 +37,4 @@ print(f"Highest Grade:    {highest}")
 print(f"Sum of Grades:    {total}")
 print(f"Average:          {average:.2f}")
 print("--------------------------------")
+
