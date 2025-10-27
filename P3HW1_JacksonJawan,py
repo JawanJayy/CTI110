@@ -1,0 +1,33 @@
+# P3HW1 - Debug
+# Name: Lastname, Firstname
+# Date: 10/26/2025
+# Description: Program to calculate grade statistics and determine letter grade
+
+# Get input for 6 module grades
+grades = []
+for i in range(1, 7):
+    grade = float(input(f"Enter grade for Module {i}: "))
+    grades.append(grade)
+
+print("\n------------Results------------")
+print(f"Lowest Grade: {min(grades):.1f}")
+print(f"Highest Grade: {max(grades):.1f}")
+print(f"Sum of Grades: {sum(grades):.1f}")
+
+average = sum(grades) / len(grades)
+print(f"Average: {average:.2f}")
+print("--------------------------------")
+
+# Determine letter grade
+if average >= 90:
+    letter_grade = "A"
+elif average >= 80:
+    letter_grade = "B"
+elif average >= 70:
+    letter_grade = "C"
+elif average >= 60:
+    letter_grade = "D"
+else:
+    letter_grade = "F"
+
+print(f"\nYour grade is: {letter_grade}")
