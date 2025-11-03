@@ -1,5 +1,5 @@
-# P4LAB1a_LastnameFirstname.py
-# Author: Your Name
+# P4LAB1a_JacksonJawan.py
+# Author: Jawan Jackson
 # CTI 110 - P4LAB1a: Shapes
 # This program draws a square and a triangle using turtle graphics.
 
@@ -31,3 +31,4 @@ while sides < 3:
 # Hide turtle and finish
 t.hideturtle()
 turtle.done()
+
